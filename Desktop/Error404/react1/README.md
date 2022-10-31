@@ -1,3 +1,6 @@
+#API KEY: KiQxqBqzWIzAsHFf7WkAclTnPrnRIvVH
+# Gif URL: api.giphy.com/v1/gifs/random#
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
