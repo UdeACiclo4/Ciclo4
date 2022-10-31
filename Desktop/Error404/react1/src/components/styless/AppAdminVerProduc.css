@@ -1,0 +1,17 @@
+.HeaderAdmin{    
+    width: 1500px;
+    height: 30px;
+    background-color: #ecebebfd;
+}
+.Text1 {
+    font-family: Times New Roman;
+    color: black;
+    font-weight: bold;
+    text-shadow: 5px 5px 5px rgb(0, 0, 0);
+    padding-right: 30px;
+    text-align: center;
+}
+.Product{
+    width: 50px;
+    height: 80px;
+}
