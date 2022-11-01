@@ -1,14 +1,13 @@
 import React from "react";
 
-const Producto = ({nombre, precio, stock}) => (
+const Producto = ({nombre, precio, stock, img}) => (
     <div className="producto">       
-        <img src="https://www.misangelitos.com.ar/image/cache/FUf8GZe77oy-600x315.png" alt={nombre}/>
+        <img Class="img" src={img} alt={nombre}/>
         <div className="producto-info">
-            <h4>Nombre: {nombre}</h4>
-            <h4>Precio: ${precio}</h4>            
-            <h4>Stock: {stock} unidades</h4>
+            <h3>Nombre: {nombre}</h3>
+            <h3>Precio: {precio}</h3>            
+            <h3>Stock: {stock} unidades</h3>
         </div>
     </div>
 );
-
 export default Producto;
